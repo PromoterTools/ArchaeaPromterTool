@@ -9,9 +9,9 @@ Flask==3.0.3
 flatbuffers==24.3.25
 gast==0.4.0
 google-pasta==0.2.0
-grpcio==1.67.1
+grpcio==1.51.3       # Compatible with TensorFlow 2.13.0
 gunicorn==23.0.0
-h5py==3.12.1
+h5py==3.8.0           # Compatible with TensorFlow 2.13.0
 idna==3.10
 itsdangerous==2.2.0
 Jinja2==3.1.4
@@ -23,19 +23,20 @@ MarkupSafe==3.0.2
 mdurl==0.1.2
 ml-dtypes==0.4.1
 namex==0.0.8
-numpy==1.24.0           # Compatible numpy version
+numpy==1.24.3        # Compatible with TensorFlow 2.13.0
 opt_einsum==3.4.0
 optree==0.13.0
 packaging==24.1
-protobuf==5.28.3
+protobuf==3.20.3     # Compatible with TensorFlow and TensorBoard
 Pygments==2.18.0
 requests==2.32.3
 rich==13.9.3
 six==1.16.0
 tensorboard==2.13.0
 tensorflow==2.13.0
-termcolor==2.5.0
-typing_extensions==4.12.2
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.3.0
+typing_extensions==4.5.0
 urllib3==2.2.3
 Werkzeug==3.0.6
-wrapt==1.16.0
+wrapt==1.12.1        # Version compatible with TensorFlow
