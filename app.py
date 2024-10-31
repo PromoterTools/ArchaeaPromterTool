@@ -4,13 +4,14 @@ Created on Mon Oct 28 14:07:18 2024
 
 @author: Lab
 """
-
-from flask import Flask, request, render_template
-
-import numpy as np
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, Dropout, Flatten, Dense, Input
 from tensorflow.keras import regularizers, Model
 from itertools import product
+from flask import Flask, request, render_template
+import numpy as np
+
 #import seaborn as sns
 #%%
 # Initialize Flask app
