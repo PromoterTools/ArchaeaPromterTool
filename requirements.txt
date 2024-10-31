@@ -39,4 +39,4 @@ termcolor==2.3.0
 typing_extensions==4.5.0
 urllib3==2.2.3
 Werkzeug==3.0.6
-wrapt==1.12.1        # Version compatible with TensorFlow
+wrapt==1.13.0
